@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import akhilpic from "./akhil.jpg";
 import abdulpic from "./abdul1.jpg";
+import madhavi from  "./madhavi.png";
 
 const Home = () => {
 	const Logo = () => (
@@ -81,7 +82,7 @@ const Home = () => {
 					/>
 					<TeammateCard
 						name="D. Madhavi"
-						image="https://via.placeholder.com/100"
+						image={madhavi}
 						role="Frontend Developer"
 						linkedin="https://www.linkedin.com/in/dhumbala-madhavi-291611277"
 					/>
