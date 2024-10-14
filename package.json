@@ -9,5 +9,8 @@
 	],
 	"dependencies": {
 		"project": "file:"
+	},
+	"scripts": {
+		"start": "node index.js"
 	}
 }
